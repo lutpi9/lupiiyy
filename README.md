@@ -1,5 +1,5 @@
 # praktikum5
-| Variable       |    DATA DIRI          |
+| Variable       |      DATA DIRI        |
 | ---------------| --------------------- |
 | Nama           | Lutpiah ainus shiddik |                                          
 | NIM            | 312310475             |
