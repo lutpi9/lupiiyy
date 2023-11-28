@@ -18,73 +18,21 @@ Buat program sederhana yang akan menampilkan daftar nilai mahasiswa, dengan kete
 #Buat flowchart dan penjelasan programnya pada README.md. • Commit dan push repository ke github.
 
 
-#LATIHAN 1
-Latihan
+# LATIHAN 1
+# OUTPUT
 
-membuat kontak awal / b = {'ari' : '085267888', 'dina' : 087677776}
-menampilkan kontak ari / print(b['ari'])
-menambhkan kontak riko / b['riko']= 087888999
-mengubah kontak dina / b['dina]= '089555777
-menampilkan semua nama / print(b.keys())
-menampilkan semua nomor / print(b.values())
-menampilkan semua nama dan nomor / print(b)
-menghapus kontak dina / del b['dina']Penjelasan Program
+![codingan latihan 1](https://github.com/lutpi9/praktikum5/assets/147919251/c4dc71db-b7b2-4302-a2b4-1a6c92679281)
+![codingan latihan 1](https://github.com/lutpi9/praktikum5/assets/147919251/e01304a4-e40e-4c5f-b1d6-31e9ce5480e0)
+![codingan latihan 1](https://github.com/lutpi9/praktikum5/assets/147919251/d42a2751-1bf2-41dc-9804-fbba92b3f54d)
 
+# INPUT
 
-CODINGAN PROGRAM
- 
-list = {
-    "Arii" : "081267888", "Dina" : "087677776"  
-}
-print("\nTampilkan kontak Arii :")
-print(29*"=")
-print(" {0:^2} |".format("Nama"), "Nomor Telepon")      
-print("=============================")
-#tampilkan kontak ari
-print(" {0:^2} |".format("Arii") ,list["Arii"],"\n")
-#tambahkan kontak baru
-list["Riko"] = "087654544"
-#ubah kontak dina dengan nomor baru
-list["Dina"] = "088999776"
-#tampilkan semua nama
-print("Tampilan semua Nama :")
-print("=============================")
-#setelah diubah
-print(" {0:^2} |".format("Nama"), "Nomor Telepon")
-print("=============================")
-for x in list.keys():
-    print(" {0:^2} |".format(x))
-print("\n")
-#tampilkan semua nomor
-print("Tampilan semua Nomor :")
-print("=============================")
-#setelah diubah
-print(" {0:^2} |".format("Nama"), "Nomor Telepon")
-print("=============================")
-for x in list.values():
-    print(" {0:^2} |".format(x))
-print("\n")
-# Tampilkan daftar Nama & Nomor
-print("Tampilan daftar Nama & Nomor :")
-print("=============================")
-# Setelah di ubah
-print(" {0:^2} |".format("Nama"), "Nomor Telepon")
-print("=============================")
-for x, y in list.items():
-    print(" {0:^2} |".format(x), (y))
-print("\n")
-# Menghapus Kontak Dina
-print("Menghapus Kontak Dina :")
-print(29*"=")
-del list["Dina"]
-print(" {0:^2} |".format("Nama"), "Nomor Telepon")
-print("=============================")
-for x, y in list.items():
-    print(" {0:^2} |".format(x), (y))
-print("\n")
+![latihan1](https://github.com/lutpi9/praktikum5/assets/147919251/33c11623-ce70-4790-b0e1-8c9861314c29)
+![latihan 1](https://github.com/lutpi9/praktikum5/assets/147919251/c177475f-903c-4af3-8c48-ad79763df12d)
 
 
 
+# PRALTIKUM
 
 Menambahkan data input
 list = {}
@@ -195,6 +143,20 @@ Keluar program
         else:
         print("\n INPUT {} TIDAK ADA!, Silakan pilih [T/U/H/C/L] untuk menjalankan program!".format(c))
 Hasil program
+
+# hasil untuk (T)
+![tambah](https://github.com/lutpi9/praktikum5/assets/147919251/82e945da-7fc0-49f3-b257-c86596fe2ecf)
+# hasil untuk (U)
+![ubah](https://github.com/lutpi9/praktikum5/assets/147919251/9c378a70-67ea-4620-95f9-d39f8171ab43)
+# hasil untuk (L)
+![lihat](https://github.com/lutpi9/praktikum5/assets/147919251/1de703c0-2a6a-4999-a7a6-71389bdf562b)
+# hasil untuk (C)
+![cari](https://github.com/lutpi9/praktikum5/assets/147919251/b764188a-5afa-4bb5-b119-891920780692)
+# hasil untuk (H)
+![hapus](https://github.com/lutpi9/praktikum5/assets/147919251/6ecca55e-04ce-46be-8cda-bd8fdad4d354)
+
+
+
 
 
 
