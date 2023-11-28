@@ -46,12 +46,11 @@ Mengubah data inputan
             tugas   = int(input("Nilai Tugas    : "))
             akhir = (tugas * 30/100) + (uts * 35/100) + (uas * 35/100)
             list[nama] = [nim, tugas, uts, uas, akhir]
-       
-        else:
+       else:
             print("NAMA {0} TIDAK ADA!".format(nama))
 
+#print("NAMA {0} TIDAK ADA!".format(nama)) memanggil variable nama
 
-print("NAMA {0} TIDAK ADA!".format(nama)) memanggil variable nama
 
 Menghapus Data yg sudah di input
     # Menghapus inputan Nama
