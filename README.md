@@ -105,6 +105,8 @@ Menanpilkan seluruh data
             print("-"*78)
 
 
+
+
 for z in list.items():
                 i += 1
                 print("| {no:2d} | {0:15s} | {1:15d} | {2:5d} | {3:5d} | {4:7d} | {5:7.2f} |"
