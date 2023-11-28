@@ -48,6 +48,7 @@ Mengubah data inputan
             list[nama] = [nim, tugas, uts, uas, akhir]
         else:
             print("NAMA {0} TIDAK ADA!".format(nama))
+
 print("NAMA {0} TIDAK ADA!".format(nama)) memanggil variable nama
 
 Menghapus Data yg sudah di input
@@ -60,7 +61,9 @@ Menghapus Data yg sudah di input
             print("\nData {0} berhasil di hapus".format(nama))
         else:
             print("NAMA {0} TIDAK ADA!".format(nama))
+
 Mencari data yg sudah di input
+    
     # Mencari data yg sudah di input
     elif c.lower() == 'c':
         print("Cari data berdasarkan nama inputan :")
@@ -75,6 +78,7 @@ Mencari data yg sudah di input
         else:
             print("NAMA {0} TIDAK ADA!".format(nama))
 Menanpilkan seluruh data
+   
     # Menampilkan seluruh data 
     elif c.lower() == 'l':
         if list.items():
