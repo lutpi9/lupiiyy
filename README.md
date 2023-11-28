@@ -13,6 +13,7 @@ Buat program sederhana yang akan menampilkan daftar nilai mahasiswa, dengan kete
 #Tampilkan menu pilihan: (Tambah Data, Ubah Data, Hapus Data, Tampilkan Data, Cari Data)
 #Nilai Akhir diambil dari perhitungan 3 komponen nilai (tugas: 30%, uts: 35%, uas: 35%)
 #Buat flowchart dan penjelasan programnya pada README.md. • Commit dan push repository ke github.
+
 Penjelasan Program
 
 Menambahkan data input
@@ -33,6 +34,7 @@ while True:
 if c.lower Berfungsi seperti or input bisa berjalan jika memasukan T/t
 
 Mengubah data inputan
+    
     # Mengubah data inputan
     elif c.lower() == 'u':
         print("Ubah Data :")
