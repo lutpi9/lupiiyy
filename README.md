@@ -10,11 +10,95 @@ Tugas Praktikum
 Buat program sederhana yang akan menampilkan daftar nilai mahasiswa, dengan ketentuan :
 
 #Program dibuat dengan menggunakan Dictionary
+
 #Tampilkan menu pilihan: (Tambah Data, Ubah Data, Hapus Data, Tampilkan Data, Cari Data)
+
 #Nilai Akhir diambil dari perhitungan 3 komponen nilai (tugas: 30%, uts: 35%, uas: 35%)
+
 #Buat flowchart dan penjelasan programnya pada README.md. • Commit dan push repository ke github.
 
-Penjelasan Program
+
+#LATIHAN 1
+Latihan
+
+membuat kontak awal / b = {'ari' : '085267888', 'dina' : 087677776}
+menampilkan kontak ari / print(b['ari'])
+menambhkan kontak riko / b['riko']= 087888999
+mengubah kontak dina / b['dina]= '089555777
+menampilkan semua nama / print(b.keys())
+menampilkan semua nomor / print(b.values())
+menampilkan semua nama dan nomor / print(b)
+menghapus kontak dina / del b['dina']Penjelasan Program
+
+
+CODINGAN PROGRAM
+ 
+ 
+ list = {
+    "Arii" : "081267888", "Dina" : "087677776"  
+}
+print("\nTampilkan kontak Arii :")
+print(29*"=")
+print(" {0:^2} |".format("Nama"), "Nomor Telepon")      
+print("=============================")
+
+
+# Tampilkan Kontak Ari
+print(" {0:^2} |".format("Arii") ,list["Arii"],"\n")
+# Tambah Kontak baru
+list["Riko"] = "087654544"
+# Ubah kontak dina dengan nomor baru
+list["Dina"] = "088999776"
+# Tampilkan semua Nama 
+print("Tampilan semua Nama :")
+print("=============================")
+# Setelah di ubah
+print(" {0:^2} |".format("Nama"), "Nomor Telepon")
+print("=============================")
+
+
+
+
+for x in list.keys():
+    print(" {0:^2} |".format(x))
+print("\n")
+# Tampilkan Semua Nomor 
+print("Tampilan semua Nomor :")
+print("=============================")
+# Setelah di ubah
+print(" {0:^2} |".format("Nama"), "Nomor Telepon")
+print("=============================")
+
+
+
+
+for x in list.values():
+    print(" {0:^2} |".format(x))
+print("\n")
+
+
+# Tampilkan daftar Nama & Nomor
+print("Tampilan daftar Nama & Nomor :")
+print("=============================")
+# Setelah di ubah
+print(" {0:^2} |".format("Nama"), "Nomor Telepon")
+print("=============================")
+
+for x, y in list.items():
+    print(" {0:^2} |".format(x), (y))
+print("\n")
+
+# Menghapus Kontak Dina
+print("Menghapus Kontak Dina :")
+print(29*"=")
+del list["Dina"]
+
+print(" {0:^2} |".format("Nama"), "Nomor Telepon")
+print("=============================")
+
+for x, y in list.items():
+    print(" {0:^2} |".format(x), (y))
+print("\n")
 
 Menambahkan data input
 list = {}
@@ -105,10 +189,8 @@ Menanpilkan seluruh data
             print("-"*78)
 
 
-#for z in list.items():
-
-
-#for z in list.items():        
+for z in list.items():        
+               
                 i += 1
                 print("| {no:2d} | {0:15s} | {1:15d} | {2:5d} | {3:5d} | {4:7d} | {5:7.2f} |"
                       .format(z[0][:13], z[1][0], z[1][1], z[1][2], z[1][3], z[1][4], no=i))
