@@ -52,10 +52,8 @@ Mengubah data inputan
 
 
 print("NAMA {0} TIDAK ADA!".format(nama)) memanggil variable nama
-
-
-
 Menghapus Data yg sudah di input
+    
     # Menghapus inputan Nama
     elif c.lower() == 'h':
         print("Hapus berdasarkan nama inputan :")
