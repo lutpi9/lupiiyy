@@ -32,7 +32,7 @@ Buat program sederhana yang akan menampilkan daftar nilai mahasiswa, dengan kete
 
 
 
-# PRALTIKUM
+# PRAKTIKUM
 
 Menambahkan data input
 list = {}
