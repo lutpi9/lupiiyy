@@ -2,7 +2,7 @@
 | Variable       |      DATA DIRI        |
 | ---------------| --------------------- |
 | Nama           | Lutpiah ainus shiddik |                                          
-| NIM            | 312310475             |
+| NIM            | 312310474             |
 | Kelas          | TI.23.A.5             |
 | Mata Kuliah    |Bahasa Pemrograman     |
 
