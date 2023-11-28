@@ -19,13 +19,13 @@ Buat program sederhana yang akan menampilkan daftar nilai mahasiswa, dengan kete
 
 
 # LATIHAN 1
-# OUTPUT
+# INPUT
 
 ![codingan latihan 1](https://github.com/lutpi9/praktikum5/assets/147919251/c4dc71db-b7b2-4302-a2b4-1a6c92679281)
 ![codingan latihan 1](https://github.com/lutpi9/praktikum5/assets/147919251/e01304a4-e40e-4c5f-b1d6-31e9ce5480e0)
 ![codingan latihan 1](https://github.com/lutpi9/praktikum5/assets/147919251/d42a2751-1bf2-41dc-9804-fbba92b3f54d)
 
-# INPUT
+# OUTPUT
 
 ![latihan1](https://github.com/lutpi9/praktikum5/assets/147919251/33c11623-ce70-4790-b0e1-8c9861314c29)
 ![latihan 1](https://github.com/lutpi9/praktikum5/assets/147919251/c177475f-903c-4af3-8c48-ad79763df12d)
