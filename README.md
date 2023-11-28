@@ -106,7 +106,6 @@ Menanpilkan seluruh data
 
 
 for z in list.items():
-               
                 i += 1
                 print("| {no:2d} | {0:15s} | {1:15d} | {2:5d} | {3:5d} | {4:7d} | {5:7.2f} |"
                       .format(z[0][:13], z[1][0], z[1][1], z[1][2], z[1][3], z[1][4], no=i))
@@ -115,12 +114,13 @@ for z in list.items():
 list.items(): memanggil isi dari variable list, .format Digunakan untuk mengatur format string yang nantinya akan dicetak atau ditampilkan ke layar.
 
 
+
 Keluar program
+    
     # Keluar program
     elif c. lower() == 'k':
         break
-
-    else:
+        else:
         print("\n INPUT {} TIDAK ADA!, Silakan pilih [T/U/H/C/L] untuk menjalankan program!".format(c))
 Hasil program
 
